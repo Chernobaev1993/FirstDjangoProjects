@@ -42,8 +42,10 @@ INSTALLED_APPS = [
     'fpages'
 ]
 
+# Необходимая переменная для flatpages
 SITE_ID = 1
 
+# Список оболочек, через которые проходит get or post запрос
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -57,6 +59,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'project.urls'
 
+# Шаблоны. Здесь указали папку с шаблонами templates
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -79,6 +82,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# Здесь указываем нашу БД
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
