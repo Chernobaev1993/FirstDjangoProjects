@@ -19,5 +19,6 @@ from django.urls import path, include
 # Здесь указываем ссылки на приложения, include подгружает паттерн для flatpage
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pages/', include('django.contrib.flatpages.urls'))
+    path('pages/', include('django.contrib.flatpages.urls')),
+    path('products/', include('simpleapp.urls'))
 ]

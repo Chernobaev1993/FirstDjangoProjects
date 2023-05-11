@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.flatpages',
     'fpages',
     'mc_donalds',
+    'simpleapp',
 ]
 
 # Необходимая переменная для flatpages
