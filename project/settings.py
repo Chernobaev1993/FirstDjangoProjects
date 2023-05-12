@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'fpages',
     'mc_donalds',
     'simpleapp',
+    'django_filters',  # Сторонний пакет
 ]
 
 # Необходимая переменная для flatpages
